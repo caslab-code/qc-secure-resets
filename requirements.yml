@@ -1,0 +1,14 @@
+name: sec-rst
+channels:
+  - plotly
+  - defaults
+dependencies:
+  - jupyter
+  - pip
+  - plotly
+  - python=3
+  - statsmodels
+  - pip:
+    - kaleido
+    - pylatexenc
+    - qiskit
